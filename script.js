@@ -1,10 +1,12 @@
-
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+
+
 
 menuIcon.onclick = () => {
   navbar.classList.toggle('active');
 };
+
 
 
 ScrollReveal({
@@ -13,6 +15,8 @@ ScrollReveal({
   duration: 2000,
   delay: 200
 });
+
+
 
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'bottom' });
