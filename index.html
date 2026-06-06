@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Personal Portfolio</title>
+  <title>Ankit Kr Srivastava | Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
@@ -23,20 +23,25 @@
 
   <section class="home" id="home">
     <div class="home-content">
-      <h3>Hi, Myself</h3>
-      <h1>Ankit kr srivastava</h1>
-      <h3>And I am a <span>AI/ML & Frontend Developer</span></h3>
-      <p>B.Tech student passionate about combining intelligent systems with clean, responsive interfaces.  
-      I create smart solutions and interactive user experiences using AI and modern web technologies.</p>
-      <div class="social-media">
-        <a href="https://www.linkedin.com/in/ankit-kr-srivastava-79b195286/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://x.com/AnkitSriva65256"><i class="fa-brands fa-square-twitter"></i></a>
-        <a href="https://github.com/Ankitsri2005"><i class="fa-brands fa-github"></i></a>
+      <p class="home-intro">Hi, I'm</p>
+      <h1 class="home-name">
+        <span class="name-line">Ankit</span>
+        <span class="name-line name-gold">kr srivastava</span>
+      </h1>
+      <p class="home-role"><span id="role-word">AI/ML</span> Developer</p>
+      <p class="home-desc">B.Tech CSE (AI) student at IEM Kolkata building full-stack AI systems - from ML models to responsive web apps.</p>
+      <div class="home-btns">
+        <a href="https://drive.google.com/drive/folders/1ET55gfWGo5nMauovZ4D0CI4nvQ2qKaSB" class="btn" target="_blank">Resume</a>
+        <a href="#projects" class="home-link">Projects →</a>
       </div>
-      <a href="https://drive.google.com/file/d/1zZmITfqUzejW1_wPvRqQyCeT0k4mTJH_/view?usp=sharing" class="btn">Resume</a>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/ankit-kr-srivastava/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Ankitsri2005" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://leetcode.com/u/ankit_5813" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+      </div>
     </div>
     <div class="home-img">
-      <img src="WhatsApp Image 2025-03-04 at 23.54.19_39044f4d.jpg" alt="profile Image">
+      <img src="images/Ankit Kr Srivastava_12024002035078_passport.jpeg" alt="Ankit kr srivastava">
     </div>
   </section>
 
@@ -47,19 +52,42 @@
 
 
   <section class="about" id="about">
-    <div class="about-img">
-      <img src="WhatsApp Image 2025-03-04 at 23.54.19_39044f4d.jpg" alt="profile">
-    </div>
-    <div class="about-content">
-      <h2 class="heading">ABOUT <span>ME</span></h2>
-      <h3>AI/ML & Frontend Developer</h3>
-      <p>I’m a <span>B.Tech student</span> at <span>UEM Kolkata</span> with a strong interest in AI, Machine Learning, and Frontend Development. 
-        I’ve worked on <span>projects</span> like an IoT-based teenage monitoring system using Arduino and sensors, and developed a responsive
-        portfolio website using <span>HTML, CSS, and JavaScript</span>. I also completed the <span>Microsoft AI & Azure Virtual Internship through Edunet
-        Foundation</span>, where I gained hands-on experience with tools like Azure ML Studio and Cognitive Services. I enjoy building intelligent and user-friendly tech solutions,
-        and I'm always eager to solve real-world problems through <span>continuous learning</span> and collaboration.
-      </p>
-      <a href="#" class="btn">Read More</a>
+    <div class="about-wrapper">
+      <div class="about-header">
+        <h2 class="about-title">About <span>Me</span></h2>
+        <p class="about-subtitle">Who I am &amp; what I build</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-block">
+          <p>I'm a <span>B.Tech CSE (AI) student</span> at <span>IEM Kolkata</span> with hands-on experience building full-stack AI systems using Python, Scikit-learn, Flask, PostgreSQL, JavaScript, and Microsoft Azure.</p>
+          <p>I developed <span>KnowGap</span>, an ML-based learning gap detection system with <span>92.8% accuracy</span> using Decision Tree, K-Means Clustering, and Linear Regression. I actively practice DSA in Python on LeetCode and have completed internships with <span>IEDC</span> and <span>Microsoft Azure</span>.</p>
+          <a href="#projects" class="btn">View Projects</a>
+        </div>
+
+        <div class="about-info">
+          <div class="about-item">
+            <span class="about-label"><i class="fa-solid fa-graduation-cap"></i> Education</span>
+            <span class="about-value">B.Tech CSE (AI) - IEM Kolkata</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label"><i class="fa-solid fa-lightbulb"></i> IEDC Internship</span>
+            <span class="about-value">Dec 2025 - Applied AI &amp; innovation with Python &amp; ML tools</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label"><i class="fa-brands fa-microsoft"></i> Microsoft Azure</span>
+            <span class="about-value">May-Jun 2025 - 3+ AI projects with Azure ML &amp; Cognitive Services</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label"><i class="fa-solid fa-certificate"></i> Certifications</span>
+            <span class="about-value">NPTEL Java (Elite) · Microsoft AI/Azure · Coursera Security</span>
+          </div>
+          <div class="about-item">
+            <span class="about-label"><i class="fa-solid fa-bolt"></i> Focus</span>
+            <span class="about-value">AI/ML · Full-Stack · Blockchain · DSA</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -69,148 +97,255 @@
 
 
   <section class="skills" id="skills">
-    <h2 class="heading">Skills & <span>technologies</span></h2>
-    <div class="skills-container">
-      <div class="skill-box">
-        <h3><i class="fa-solid fa-code"></i> Languages</h3>
-        <ul>
-          <li><i class="fa-brands fa-python"></i> Python</li>
-          <li><i class="fa-solid fa-c"></i> C</li>
-          <li><i class="fa-brands fa-js"></i> JavaScript</li>
-          <li><i class="fa-brands fa-html5"></i> HTML/CSS</li>
-          <li><i class="fa-brands fa-ethereum"></i> Solidity</li>
-        </ul>
+    <h2 class="heading">Skills & <span>Technologies</span></h2>
+    
+    <div class="skills-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="languages">Languages</button>
+      <button class="filter-btn" data-filter="ai-ml">AI / ML</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="backend">Backend & Web3</button>
+      <button class="filter-btn" data-filter="tools">Tools & Cloud</button>
+    </div>
+
+    <div class="skills-grid">
+      <!-- Python Card -->
+      <div class="skill-card show" data-category="languages ai-ml backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-python"></i>
+            <span>Python</span>
+          </div>
+        </div>
+        <p class="skill-desc">Primary language for model development, data analysis, and server scripting.</p>
       </div>
 
-      <div class="skill-box">
-        <h3><i class="fa-solid fa-cubes"></i> Libraries/Frameworks</h3>
-        <ul>
-          <li><i class="fa-solid fa-cube"></i> NumPy</li>
-          <li><i class="fa-solid fa-cube"></i> Pandas</li>
-          <li><i class="fa-solid fa-cube"></i> Matplotlib</li>
-          <li><i class="fa-solid fa-cube"></i> Scikit-learn</li>
-          <li><i class="fa-solid fa-cube"></i> Truffle</li>
-        </ul>
+      <!-- Machine Learning Card -->
+      <div class="skill-card show" data-category="ai-ml">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-solid fa-brain"></i>
+            <span>Machine Learning</span>
+          </div>
+        </div>
+        <p class="skill-desc">Supervised/Unsupervised models, anomaly detection, and classification models.</p>
       </div>
 
-      <div class="skill-box">
-        <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
-        <ul>
-          <li><i class="fa-solid fa-handshake"></i> Teamwork</li>
-          <li><i class="fa-solid fa-user-tie"></i> Leadership</li>
-          <li><i class="fa-solid fa-comments"></i> Communication</li>
-          <li><i class="fa-solid fa-lightbulb"></i> Problem-Solving</li>
-        </ul>
+      <!-- Data Science Stack Card -->
+      <div class="skill-card show" data-category="ai-ml">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Data Science Stack</span>
+          </div>
+        </div>
+        <p class="skill-desc">Data processing, analytics & insights using NumPy, Pandas & Matplotlib.</p>
+      </div>
+
+      <!-- HTML5 & CSS3 Card -->
+      <div class="skill-card show" data-category="languages frontend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML5 & CSS3</span>
+          </div>
+        </div>
+        <p class="skill-desc">Designing modern responsive layouts, custom animations, and CSS variables.</p>
+      </div>
+
+      <!-- JavaScript Card -->
+      <div class="skill-card show" data-category="languages frontend backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-js"></i>
+            <span>JavaScript (ES6+)</span>
+          </div>
+        </div>
+        <p class="skill-desc">Dynamic script execution, frontend DOM manipulation, and backend logics.</p>
+      </div>
+
+      <!-- Flask & Django Card -->
+      <div class="skill-card show" data-category="backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-solid fa-gears"></i>
+            <span>Flask & Django</span>
+          </div>
+        </div>
+        <p class="skill-desc">Building lightweight to enterprise-level RESTful APIs and machine learning backends.</p>
+      </div>
+
+      <!-- Node.js Card -->
+      <div class="skill-card show" data-category="backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-node-js"></i>
+            <span>Node.js & Express</span>
+          </div>
+        </div>
+        <p class="skill-desc">Constructing asynchronous network applications and modular backend runtimes.</p>
+      </div>
+
+      <!-- Databases Card -->
+      <div class="skill-card show" data-category="backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-solid fa-database"></i>
+            <span>Databases (NoSQL & SQL)</span>
+          </div>
+        </div>
+        <p class="skill-desc">Database schema designs and query optimization in MongoDB and PostgreSQL.</p>
+      </div>
+
+      <!-- Solidity & Web3 Card -->
+      <div class="skill-card show" data-category="languages backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-ethereum"></i>
+            <span>Solidity & Web3</span>
+          </div>
+        </div>
+        <p class="skill-desc">Writing secure smart contracts, dApp testing with Truffle and local testnets.</p>
+      </div>
+
+
+
+      <!-- Microsoft Azure Card -->
+      <div class="skill-card show" data-category="tools ai-ml">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-microsoft"></i>
+            <span>Microsoft Azure</span>
+          </div>
+        </div>
+        <p class="skill-desc">Azure ML Studio, Cognitive Services, and Logic Apps for cloud-based AI deployments.</p>
+      </div>
+
+      <!-- Git & GitHub Card -->
+      <div class="skill-card show" data-category="tools">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-github"></i>
+            <span>Git & GitHub</span>
+          </div>
+        </div>
+        <p class="skill-desc">Version control, managing branches, collaborative pull requests, and automated actions.</p>
+      </div>
+
+      <!-- C Language Card -->
+      <div class="skill-card show" data-category="languages">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-solid fa-c"></i>
+            <span>C</span>
+          </div>
+        </div>
+        <p class="skill-desc">Low-level structured systems programming language for building optimized logical pipelines.</p>
+      </div>
+
+      <!-- Java (OOP) Card -->
+      <div class="skill-card show" data-category="languages backend">
+        <div class="skill-info">
+          <div class="skill-icon-name">
+            <i class="fa-brands fa-java"></i>
+            <span>Java (OOP)</span>
+          </div>
+        </div>
+        <p class="skill-desc">Object-Oriented Programming (OOP) language for stable and scalable software architecture.</p>
+      </div>
+    </div>
+
+    <!-- Core Competencies -->
+    <div class="skills-competencies">
+      <h3 class="competencies-title">Core Competencies</h3>
+      <div class="competencies-container">
+        <div class="competency-badge"><i class="fa-solid fa-diagram-project"></i> Data Structures & Algorithms</div>
+        <div class="competency-badge"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+        <div class="competency-badge"><i class="fa-solid fa-sitemap"></i> Software Architecture</div>
+        <div class="competency-badge"><i class="fa-solid fa-users"></i> Team Collaboration</div>
+        <div class="competency-badge"><i class="fa-solid fa-code"></i> LeetCode DSA Practice</div>
       </div>
     </div>
   </section>
-
-
-
-
 
 
   <section class="Projects" id="projects">
     <h2 class="heading">Latest <span>Projects</span></h2>
     <div class="projects-container">
+      <!-- Safar Sathi -->
       <div class="projects-box">
-        <img src="premium_photo-1678565869434-c81195861939.jpeg" alt="Teenage monitoring system">
-        <div class="projects-layer">
-          <h4>Teenage monitoring system</h4>
-          <p>Tracks teen safety using GPS, sensors, and alerts.</p>
-          <i class="fa-solid fa-up-right-from-square"></i>
+        <img src="images/projects/Safar sathi.png" alt="Safar Sathi tourist safety system">
+        <div class="project-details">
+          <h4>Safar Sathi - Smart Tourist Safety</h4>
+          <p>Real-time monitoring app for tourists and authorities with an AI-based safety score engine using crime data, time-of-day, and location risk. Tamper-proof digital IDs and logs via blockchain on Ethereum.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Geo-Fencing</span>
+            <span class="tag">Solidity</span>
+            <span class="tag">Blockchain</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Ankitsri2005/SafarSathi" target="_blank" class="project-btn btn-code"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://safar-sathi-pied.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn btn-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
         </div>
       </div>
 
-
-
-
+      <!-- KnowGap -->
       <div class="projects-box">
-        <img src="computer-background-1920x1200-wallpaper-preview.jpg" alt="Fake news detection">
-        <div class="projects-layer">
-          <h4>Fake news detection</h4>
-          <p>Classifies news as real or fake using AI and NLP.</p>
-          <a href="https://github.com/Ankitsri2005/Fake-news-detection-"><i class="fa-solid fa-up-right-from-square"></i></a>
+        <img src="images/projects/Knowgap.png" alt="KnowGap learning gap detection">
+        <div class="project-details">
+          <h4>KnowGap - Learning Gap Forensics</h4>
+          <p>Analyzes student marks, attendance, and quiz scores to identify weak topics. Uses Decision Tree, K-Means Clustering, and Linear Regression - achieving <strong>92.8% accuracy</strong>.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">ML</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Ankitsri2005/KnowGap" target="_blank" class="project-btn btn-code"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://knowgap-1-0bfh.onrender.com" target="_blank" rel="noopener noreferrer" class="project-btn btn-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
         </div>
       </div>
 
-
-
-
-
+      <!-- BusinessPulse -->
       <div class="projects-box">
-        <img src="project_management_coursefees.avif" alt="AI powered disease diagnosis">
-        <div class="projects-layer">
-          <h4>AI powered disease diagnosis</h4>
-          <p>Predicts diseases using symptoms and AI models.</p>
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-      </div>
-
-
-
-
-
-
-      <div class="projects-box">
-        <img src="hands-robot-human-touching-virtual-600nw-651441421.webp" alt="AI-Powered Mental Health Tracker">
-        <div class="projects-layer">
-          <h4>AI-Powered Mental Health Tracker</h4>
-          <p>Tracks mood and mental health using AI analysis.</p>
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-      </div>
-
-
-
-
-
-      <div class="projects-box">
-        <img src="d8a4f070-2fc9-4728-90a8-df574e2fe820_large.webp" alt="Live Sign Language to Speech Converter">
-        <div class="projects-layer">
-          <h4>Live Sign Language to Speech Converter</h4>
-          <p>Converts sign language gestures into real-time speech.</p>
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-      </div>
-
-
-
-
-
-      <div class="projects-box">
-        <img src="ml_drift2.webp" alt="Text to Video Summarizer AI">
-        <div class="projects-layer">
-          <h4>Text to Video Summarizer AI</h4>
-          <p>Converts text summaries into dynamic AI-generated videos.</p>
-          <i class="fa-solid fa-up-right-from-square"></i>
+        <img src="images/projects/Sales & demand.png" alt="BusinessPulse sales forecasting platform">
+        <div class="project-details">
+          <h4>BusinessPulse - Sales & Demand Forecasting Platform</h4>
+          <p>A data-driven forecasting platform that helps businesses estimate future sales demand using time-series analysis and machine learning. Supports decision-making for inventory management and revenue planning.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">ML</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Ankitsri2005/FUTURE_ML_01" target="_blank" class="project-btn btn-code"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://sales-prediction-azo7.onrender.com" target="_blank" rel="noopener noreferrer" class="project-btn btn-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-
-
-
-
-
-
-
   <footer class="contact" id="contact">
     <h2 class="contact-heading">Let's <span>Connect</span></h2>
     <div class="contact-icons">
-      <a href="https://www.linkedin.com/in/ankit-kr-srivastava-79b195286/"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://x.com/AnkitSriva65256"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/ankit-kr-srivastava/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Ankitsri2005" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://wa.me/919142108500" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:vkankit3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
     </div>
-    <p class="contact-text">Let's team up to build something awesome—or just say Hi!</p>
+    <p class="contact-text">Let's team up to build something awesome or just say Hi</p>
   </footer>
 
-
-
-
-
-
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
